@@ -4,7 +4,7 @@ const SocialBanner = () => {
   return (
     <Stack direction="row" spacing={1} sx={{margin: '40px'}}>
         <img
-          src="./src/assets/@thelittlelibrary.png"
+          src="./assets/@thelittlelibrary.png"
           width="55%"
           height="55%"
         />

@@ -12,7 +12,7 @@ export default function ProductCard() {
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
         <img
-            src="./src/assets/romance.png"
+            src="./assets/romance.png"
             srcSet=""
             loading="lazy"
             alt=""
