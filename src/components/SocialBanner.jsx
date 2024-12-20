@@ -1,28 +1,82 @@
-import { Stack, Sheet } from '@mui/joy';
+import { Stack, Sheet, Button, Link } from '@mui/joy';
 
 const SocialBanner = () => {
   return (
-    <Stack direction="row" spacing={1} sx={{margin: '40px'}}>
-        <img
-          src="./assets/@thelittlelibrary.png"
-          width="55%"
-          height="55%"
-        />
-        <Sheet variant="outlined"
+    <Stack direction="column" spacing={2} sx={{ margin: '40px' }}>
+      <Sheet
         sx={{
-          display: 'flex',
-          justifyContent: 'flex-start',
-          alignItems: 'center',
           backgroundColor: 'hsla(39, 90%, 64%, 1)',
-          margin: '40px'
+          padding: '20px',
+          textAlign: 'center',
         }}
       >
-      <Sheet sx={{backgroundColor: 'hsla(39, 90%, 64%, 1)', margin: '40px'}}>
-        <h2>Join us for our Annual Spring Event!</h2>
-        <p>This year we will be putting the emphasis on scialising and swapping our favourite books</p>
+        <h2>The Little Library Case Study</h2>
+        <p>
+          I completed the first Little Library website (on the left) after completing an intro to
+          web development course with Code First Girls
+        </p>
+        <p>
+          I wanted to challenge myself, after completing this Bootcamp, to remake the website
+          using the new knowledge and skills I have learned.
+        </p>
+      </Sheet>
+
+      <Stack direction="row" spacing={2}>
+        {/* First Image and Buttons */}
+        <Sheet
+          variant="outlined"
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#A0A38E',
+            padding: '20px',
+          }}
+        >
+          <img src="./assets/tll-v1.png" alt="Little Library Version 1" style={{ maxWidth: '100%' }} />
+          <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
+            <Button variant="outlined" size="md">
+              <Link href="https://github.com/VicLooby/Cars-App-API-" target="_blank">
+                GitHub
+              </Link>
+            </Button>
+            <Button variant="outlined" size="md">
+              <Link href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">
+                Website
+              </Link>
+            </Button>
+          </Stack>
         </Sheet>
-</Sheet>
-</Stack>
+
+        {/* Second Image and Buttons */}
+        <Sheet
+          variant="outlined"
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#A0A38E',
+            padding: '20px',
+          }}
+        >
+          <img src="./assets/tll-v2.png" alt="Little Library Version 2" style={{ maxWidth: '100%' }} />
+          <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
+            <Button variant="outlined" size="md">
+              <Link href="https://github.com/VicLooby/Cars-App-API-" target="_blank">
+                GitHub
+              </Link>
+            </Button>
+            <Button variant="outlined" size="md">
+              <Link href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">
+                Website
+              </Link>
+            </Button>
+          </Stack>
+        </Sheet>
+      </Stack>
+    </Stack>
   );
 };
 

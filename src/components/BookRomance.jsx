@@ -12,28 +12,22 @@ export default function ProductCard() {
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
         <img
-            src="./assets/romance.png"
+            src="./assets/to-do-app.png"
             srcSet=""
             loading="lazy"
             alt=""
           />
         </AspectRatio>
       </CardOverflow>
-      <CardContent>
-        <Link
-          href="#product-card"
-          color="neutral"
-          textColor="text.primary"
-          overlay
-          sx={{ fontWeight: 'md' }}
-        >
-          The Books we fell in Love with
-        </Link>
+      <CardContent>DOM To Do App
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" color="warning" size="lg">
-          Browse
-        </Button>
+      <Button variant="outlined" size="md"><Link>
+        <a href="https://github.com/VicLooby/To-Do-App" target="_blank">GitHub</a>
+        </Link></Button>
+        <Button variant="outlined" size="md"><Link>
+        <a href="https://effervescent-naiad-17d53b.netlify.app/" target="_blank">Website</a>
+        </Link></Button>
       </CardOverflow>
     </Card>
   );

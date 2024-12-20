@@ -12,28 +12,22 @@ export default function ProductCard() {
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
         <img
-            src="./assets/contemporary-fic.png"
+            src="./assets/console-app.png"
             srcSet=""
             loading="lazy"
             alt=""
           />
         </AspectRatio>
       </CardOverflow>
-      <CardContent>
-        <Link
-          href="#product-card"
-          color="neutral"
-          textColor="text.primary"
-          overlay
-          sx={{ fontWeight: 'md' }}
-        >
-          Our Contemporary Fiction top picks!
-        </Link>
+      <CardContent>Books Console App
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" color="warning" size="lg">
-          Browse
-        </Button>
+      <Button variant="outlined" size="md"><Link>
+        <a href="https://github.com/VicLooby/Book-Console-App" target="_blank">GitHub</a>
+        </Link></Button>
+        <Button variant="outlined" size="md"><Link>
+        <a href="https://meek-cassata-240342.netlify.app/" target="_blank">Website</a>
+        </Link></Button>
       </CardOverflow>
     </Card>
   );

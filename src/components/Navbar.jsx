@@ -37,13 +37,12 @@ const UserBox = styled(Box) (({ theme }) => ({
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: "hsla(39, 90%, 64%, 1)" }}>
+    <AppBar position="sticky" sx={{ backgroundColor: "#7E8265" }}>
     <StyledToolbar>
     <Typography variant='h2' sx={{display:{xs:"none", sm:"block"}}}>
-    The Little Library
+    My Portfolio
     </Typography>
     <LocalLibrary sx={{display:{xs:"block", sm:"none"}}}/>
-    <Searchbar><InputBase placeholder="search..."/></Searchbar>
     </StyledToolbar>
     </AppBar>
   )

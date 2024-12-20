@@ -12,7 +12,7 @@ export default function ProductCard() {
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
         <img
-            src="./assets/scifi.png"
+            src="./assets/cars-app-api.png"
             srcSet=""
             loading="lazy"
             alt=""
@@ -20,20 +20,15 @@ export default function ProductCard() {
         </AspectRatio>
       </CardOverflow>
       <CardContent>
-        <Link
-          href="#product-card"
-          color="neutral"
-          textColor="text.primary"
-          overlay
-          sx={{ fontWeight: 'md' }}
-        >
-          Browse here out of this world adventures!
-        </Link>
+          Cars Application & API
       </CardContent>
       <CardOverflow>
-        <Button variant="solid" color="warning" size="lg">
-          Browse
-        </Button>
+        <Button variant="outlined" size="md"><Link>
+        <a href="https://github.com/VicLooby/Cars-App-API-" target="_blank">GitHub</a>
+        </Link></Button>
+        <Button variant="outlined" size="md"><Link>
+        <a href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">Website</a>
+        </Link></Button>
       </CardOverflow>
     </Card>
   );
