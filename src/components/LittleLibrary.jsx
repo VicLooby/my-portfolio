@@ -42,7 +42,7 @@ const SocialBanner = () => {
               </Link>
             </Button>
             <Button variant="outlined" size="md">
-              <Link href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">
+              <Link href="https://github.com/VicLooby/the-little-library-v1" target="_blank">
                 Website
               </Link>
             </Button>
@@ -64,12 +64,12 @@ const SocialBanner = () => {
           <img src="./assets/tll-v2.png" alt="Little Library Version 2" style={{ maxWidth: '100%' }} />
           <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
             <Button variant="outlined" size="md">
-              <Link href="https://github.com/VicLooby/Cars-App-API-" target="_blank">
+              <Link href="https://github.com/VicLooby/the-little-library-2312" target="_blank">
                 GitHub
               </Link>
             </Button>
             <Button variant="outlined" size="md">
-              <Link href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">
+              <Link href="https://visionary-medovik-389818.netlify.app/" target="_blank">
                 Website
               </Link>
             </Button>
