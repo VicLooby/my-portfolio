@@ -22,10 +22,10 @@ export default function ProductCard() {
       <CardContent>Books Console App
       </CardContent>
       <CardOverflow>
-      <Button variant="outlined" size="md"><Link>
+      <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }}><Link>
         <a href="https://github.com/VicLooby/Book-Console-App" target="_blank">GitHub</a>
         </Link></Button>
-        <Button variant="outlined" size="md"><Link>
+        <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }}><Link>
         <a href="https://meek-cassata-240342.netlify.app/" target="_blank">Website</a>
         </Link></Button>
       </CardOverflow>

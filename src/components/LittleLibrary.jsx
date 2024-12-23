@@ -5,7 +5,7 @@ const SocialBanner = () => {
     <Stack direction="column" spacing={2} sx={{ margin: '40px' }}>
       <Sheet
         sx={{
-          backgroundColor: 'hsla(39, 90%, 64%, 1)',
+          backgroundColor: 'pink',
           padding: '20px',
           textAlign: 'center',
         }}
@@ -24,16 +24,16 @@ const SocialBanner = () => {
       <Stack direction="row" spacing={2}>
         {/* First Image and Buttons */}
         <Sheet
-          variant="outlined"
+          variant=""
           sx={{
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: '#A0A38E',
+            backgroundColor: '#000',
             padding: '20px',
           }}
-        >
+        >ß
           <img src="./assets/tll-v1.png" alt="Little Library Version 1" style={{ maxWidth: '100%' }} />
           <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
             <Button variant="outlined" size="md">
@@ -51,13 +51,13 @@ const SocialBanner = () => {
 
         {/* Second Image and Buttons */}
         <Sheet
-          variant="outlined"
+          variant=""
           sx={{
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: '#A0A38E',
+            backgroundColor: '#000',
             padding: '20px',
           }}
         >

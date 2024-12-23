@@ -38,7 +38,7 @@ const UserBox = styled(Box) (({ theme }) => ({
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: "#7E8265"}}>
+    <AppBar position="sticky" sx={{ backgroundColor: "pink"}}>
     <StyledToolbar>
     <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/victorialooby/')}>Find me on LinkedIn
     <LinkedIn fontSize="large" />

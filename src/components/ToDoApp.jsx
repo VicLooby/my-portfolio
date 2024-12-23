@@ -22,10 +22,10 @@ export default function ProductCard() {
       <CardContent>DOM To Do App
       </CardContent>
       <CardOverflow>
-      <Button variant="outlined" size="md"><Link>
+      <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }} ><Link>
         <a href="https://github.com/VicLooby/To-Do-App" target="_blank">GitHub</a>
         </Link></Button>
-        <Button variant="outlined" size="md"><Link>
+        <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }}><Link>
         <a href="https://effervescent-naiad-17d53b.netlify.app/" target="_blank">Website</a>
         </Link></Button>
       </CardOverflow>

@@ -37,10 +37,10 @@ const UserBox = styled(Box) (({ theme }) => ({
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: "#7E8265" }}>
+    <AppBar position="sticky" sx={{ backgroundColor: "black" }}>
     <StyledToolbar>
     <Typography variant='h2' sx={{display:{xs:"none", sm:"block"}}}>
-    My Portfolio
+    
     </Typography>
     <LocalLibrary sx={{display:{xs:"block", sm:"none"}}}/>
     </StyledToolbar>

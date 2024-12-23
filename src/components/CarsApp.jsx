@@ -23,10 +23,10 @@ export default function ProductCard() {
           Cars Application & API
       </CardContent>
       <CardOverflow>
-        <Button variant="outlined" size="md"><Link>
+        <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }}><Link>
         <a href="https://github.com/VicLooby/Cars-App-API-" target="_blank">GitHub</a>
         </Link></Button>
-        <Button variant="outlined" size="md"><Link>
+        <Button variant="solid" size="md" sx={{ minWidth: 200, backgroundColor: "pink" }}><Link>
         <a href="https://leafy-snickerdoodle-7ecd8d.netlify.app/" target="_blank">Website</a>
         </Link></Button>
       </CardOverflow>
