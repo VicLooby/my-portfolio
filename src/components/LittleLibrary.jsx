@@ -37,12 +37,12 @@ const SocialBanner = () => {
           <img src="./assets/tll-v1.png" alt="Little Library Version 1" style={{ maxWidth: '100%' }} />
           <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
             <Button variant="outlined" size="md">
-              <Link href="https://github.com/VicLooby/Cars-App-API-" target="_blank">
+              <Link href="https://github.com/VicLooby/the-little-library-v1" target="_blank">
                 GitHub
               </Link>
             </Button>
             <Button variant="outlined" size="md">
-              <Link href="https://github.com/VicLooby/the-little-library-v1" target="_blank">
+              <Link href="https://dapper-crostata-f42a71.netlify.app/" target="_blank">
                 Website
               </Link>
             </Button>
