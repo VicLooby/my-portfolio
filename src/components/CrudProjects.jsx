@@ -1,8 +1,8 @@
 // import { Box } from '@mui/material'
 // import React from 'react'
-import BookFiction from './BookFiction'
-import BookRomance from './BookRomance'
-import BookScience from './BookScience'
+import ConsoleApp from './ConsoleApp'
+import ToDoApp from './ToDoApp'
+import CarsApp from './CarsApp'
 import { Stack  } from '@mui/joy'
 
 const BookCategories = () => {
@@ -13,9 +13,9 @@ return (
   useFlexGap
   sx={{ flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '2rem',  }}
 >
-  <BookFiction />
-  <BookRomance />
-  <BookScience />
+  <ConsoleApp />
+  <ToDoApp />
+  <CarsApp />
 </Stack>
 )
 }

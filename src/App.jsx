@@ -5,8 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { Sheet  } from '@mui/joy'
 // import { ListItem } from '@mui/material'
-import SocialBanner from './components/SocialBanner'
-import BookCategories from './components/BookCategories'
+import LittleLibrary from './components/LittleLibrary'
+import CrudProjects from './components/CrudProjects'
 import Footer from './components/Footer'
 
 
@@ -23,11 +23,11 @@ function App() {
 <Sheet variant="outlined" sx={{margin:'2rem', backgroundColor: '#93857C'}}>
 <h2>CRUD Projects</h2>
 <p>Demonstrated application of CRUD operations in the Books Directory Console App and then built upon these with the  To Do App where we incirporated DOM and OOP elements and then incporated React SPA and API data to make the Cars Application. </p>
-<BookCategories />
+<CrudProjects />
 </Sheet>
 
 <Sheet variant="outlined" sx={{margin:'2rem', backgroundColor: '#323226'}}>
-  <SocialBanner />
+  <LittleLibrary />
 </Sheet>
 
       <Footer />
