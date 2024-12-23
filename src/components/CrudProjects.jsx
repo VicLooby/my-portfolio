@@ -5,7 +5,7 @@ import ToDoApp from './ToDoApp'
 import CarsApp from './CarsApp'
 import { Stack  } from '@mui/joy'
 
-const BookCategories = () => {
+const CrudProjects = () => {
 return (
 <Stack
   spacing={{ xs: 1, sm: 2 }}
@@ -19,4 +19,4 @@ return (
 </Stack>
 )
 }
-export default BookCategories
+export default CrudProjects
