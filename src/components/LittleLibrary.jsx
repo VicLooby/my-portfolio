@@ -33,7 +33,7 @@ const SocialBanner = () => {
             backgroundColor: '#000',
             padding: '20px',
           }}
-        >ß
+        >
           <img src="./assets/tll-v1.png" alt="Little Library Version 1" style={{ maxWidth: '100%' }} />
           <Stack direction="row" spacing={1} sx={{ marginTop: '10px' }}>
             <Button variant="outlined" size="md">
