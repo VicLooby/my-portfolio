@@ -11,30 +11,23 @@ const Experience = () => {
         }}>
 
         <div>
-            <h2>Development Skills</h2>
-                <h3>Working knowledge</h3>
+            <h2>Development <em>Skills</em></h2>
+                <h3><em>Working knowledge of:</em></h3>
                 <img src="./assets/skill-set.png" alt="Little Library Version 1" style={{ maxWidth: '100%' }} />
         </div>
 
         <div>
-            <p><em>
-                Key Points:
-                </em></p>
+            <h3><em>
+            Awareness of:
+                </em></h3>
         </div>
 
         <div>
-            <ul>
-                <li>Enthusiastic about design discussions, team planning, and estimation.</li>
-            </ul>
+            <p>SASS/SCSS, GraphQL, ESLint, Typescript, Vitest, Cypress, MongoDB, Next.js, Docker, Postgress </p>
         </div>
-        
 
-
-
-
-      </Sheet>
+    </Sheet>
 
     )
 }
-      
 export default Experience;

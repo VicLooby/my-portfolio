@@ -11,13 +11,13 @@ export default function ProductCard() {
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
           <img
-            src="./assets/console-app.png"
+            src="./assets/matching-game.png"
             loading="lazy"
             alt="To-Do App"
           />
         </AspectRatio>
       </CardOverflow>
-      <CardContent sx={{ color: 'pink' }}>Books Console App</CardContent>
+      <CardContent sx={{ color: 'pink' }}>Monkey Matching Mayhem</CardContent>
       <CardOverflow
         sx={{
           display: 'flex', // Flexbox layout
@@ -41,7 +41,7 @@ export default function ProductCard() {
               color: 'white',
             },
           }}
-          href="https://github.com/VicLooby/Book-Console-App"
+          href="https://github.com/VicLooby/Cars-App-API-"
           target="_blank"
         >
           GitHub
@@ -60,7 +60,7 @@ export default function ProductCard() {
               color: 'white',
             },
           }}
-          href="https://meek-cassata-240342.netlify.app/"
+          href="https://leafy-snickerdoodle-7ecd8d.netlify.app/"
           target="_blank"
         >
           Website
