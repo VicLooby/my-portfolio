@@ -1,5 +1,4 @@
 /* eslint-disable */
-import { LocalLibrary } from '@mui/icons-material'
 import { AppBar, Box, IconButton, Toolbar, Typography, styled } from '@mui/material'
 import { useState } from 'react'
 import EmailIcon from '@mui/icons-material/Email';
@@ -40,7 +39,7 @@ const Navbar = () => {
   return (
     <AppBar position="sticky" sx={{ backgroundColor: "pink"}}>
     <StyledToolbar>
-    <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/victorialooby/')}>Find me on LinkedIn
+    <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/victorialooby')}>Find me on LinkedIn
     <LinkedIn fontSize="large" />
     </IconButton>
     <IconButton aria-label="Email" onClick={() => window.open('mailto:victoria.looby@hotmail.co.uk')}>Email Me
@@ -48,7 +47,6 @@ const Navbar = () => {
     </IconButton>
     <Typography variant='h6' sx={{display:{xs:"none", sm:"block"}}}>
     </Typography>
-    <LocalLibrary sx={{display:{xs:"block", sm:"none"}}}/>
     </StyledToolbar>
     </AppBar>
   )

@@ -16,7 +16,7 @@ const Experience = () => {
 
             <div className="experience-entry">
                 <h3><em>Full-Stack Software Development Course</em></h3>
-                    <h4>May 2024 - Present</h4>
+                    <h4>May 2024 - Dec 2024</h4>
                         <h5>The Jump Digital School</h5>
 
         <div>

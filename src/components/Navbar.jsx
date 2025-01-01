@@ -1,4 +1,3 @@
-import { LocalLibrary } from '@mui/icons-material';
 import { AppBar, Toolbar, Typography, styled } from '@mui/material';
 // import CreateNewFolder from '@mui/icons-material/CreateNewFolder';
 // import Link from '@mui/joy/Link';
@@ -57,7 +56,6 @@ const Navbar = () => {
 
         </Icons> */}
 
-        <LocalLibrary sx={{ display: { xs: "block", sm: "none" } }} />
       </StyledToolbar>
     </AppBar>
   );
