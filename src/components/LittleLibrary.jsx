@@ -1,4 +1,6 @@
 import { Stack, Sheet, Button } from '@mui/joy';
+import Link from '@mui/joy/Link';
+
 
 const LittleLibrary = () => {
   return (
@@ -11,11 +13,15 @@ const LittleLibrary = () => {
         }}
       >
         <h2>The <em>Little Library</em> Project</h2>
+
         <h2>Then and <em>Now</em></h2>
-        <p>
-          I completed the first Little Library website (on the left) after completing an intro to
-          web development course with Code First Girls
-        </p>
+        <p>When I finished the Introduction to Web Development course with Code First Girls, I built the first iteration of The Little Library to exhibit the skills I learnt and to build on them.
+        The foundation of the site was constructed using HTML and CSS, with Bootstrap elements to elevate the UI.</p>
+        <p>Since finishing The Jump Bootcamp, I developed the second iteration of The Little Library. This time I used React and Vite as the project framework and built upon this using MUI library for
+        the UI elements.</p>
+        <p>I’ve enjoyed the project, redesigning the site and working to produce the same views with more efficient code. Although I’m still working on finishing the second iteration, already I’ve
+        experienced the tangible benefit of a Single Page Application and developing re-useable code.</p>
+
         <p>
           I wanted to challenge myself, after completing this Bootcamp, to remake the website
           using the new knowledge and skills I have learned.
@@ -52,11 +58,11 @@ const LittleLibrary = () => {
                   backgroundColor: 'pink',
                   color: 'white',
                 },
-              }}
-              href="https://github.com/VicLooby/the-little-library-v1"
-              target="_blank"
-            >
-              GitHub
+              }}>
+              <Link>
+              <a href="https://github.com/VicLooby/the-little-library-v1"
+              target="_blank">GitHub</a>
+            </Link>
             </Button>
             <Button
               variant="outlined"
@@ -71,11 +77,12 @@ const LittleLibrary = () => {
                   backgroundColor: 'pink',
                   color: 'white',
                 },
-              }}
-              href="https://dapper-crostata-f42a71.netlify.app/"
+              }}>
+              <Link>
+              <a href="https://dapper-crostata-f42a71.netlify.app/"
               target="_blank"
-            >
-              Website
+            >Website</a>
+              </Link>
             </Button>
           </Stack>
         </Sheet>
@@ -109,11 +116,11 @@ const LittleLibrary = () => {
                   backgroundColor: 'pink',
                   color: 'white',
                 },
-              }}
-              href="https://github.com/VicLooby/the-little-library-2312"
+              }}>
+              <Link>
+              <a href="https://github.com/VicLooby/the-little-library-2312"
               target="_blank"
-            >
-              GitHub
+            >GitHub </a></Link>
             </Button>
             <Button
               variant="outlined"
@@ -128,11 +135,12 @@ const LittleLibrary = () => {
                   backgroundColor: 'pink',
                   color: 'white',
                 },
-              }}
-              href="https://visionary-medovik-389818.netlify.app/"
+              }}>
+              <Link>
+              <a href="https://visionary-medovik-389818.netlify.app/"
               target="_blank"
-            >
-              Website
+            >Website </a>
+              </Link>
             </Button>
           </Stack>
         </Sheet>

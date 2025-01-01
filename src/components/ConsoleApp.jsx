@@ -4,6 +4,8 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import CardOverflow from '@mui/joy/CardOverflow';
+import Link from '@mui/joy/Link';
+
 
 export default function ProductCard() {
   return (
@@ -40,11 +42,13 @@ export default function ProductCard() {
               backgroundColor: 'pink',
               color: 'white',
             },
-          }}
-          href="https://github.com/VicLooby/Book-Console-App"
+          }}>
+          <Link>
+          <a href="https://github.com/VicLooby/Book-Console-App"
           target="_blank"
         >
-          GitHub
+          GitHub</a>
+          </Link>
         </Button>
         <Button
           variant="outlined"
@@ -59,11 +63,12 @@ export default function ProductCard() {
               backgroundColor: 'pink',
               color: 'white',
             },
-          }}
-          href="https://meek-cassata-240342.netlify.app/"
+          }}>
+          <Link>
+          <a href="https://meek-cassata-240342.netlify.app/"
           target="_blank"
         >
-          Website
+          Website </a></Link>
         </Button>
       </CardOverflow>
     </Card>

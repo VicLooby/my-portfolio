@@ -27,12 +27,12 @@ const Experience = () => {
 
         <div>
                 <p>Enthusiastic about design discussions, team planning, and estimation.</p>
-                <p>Strong communicator, skilled in cross-discippnary collaboration.</p>
-                <p>Quick learner, adept at new technologies and building scalable systems.</p>
+                <p>Strong communicator, skilled in cross-disciplinary collaboration.</p>
+                <p>Quick learner, adept at picking up new technologies to build scalable systems.</p>
                 <p>Skilled in problem-solving and task breakdown.</p>
                 <p>Proficient in responsive, accessible design implementation.</p>
-                <p>Knowledgable in JavaScript and concepts such as Object Oriented Programming, asynchronous programming, closures, encapsulation, polymorphism.</p>
-                <p>Experienced in crafting pixel-perfect, responsive UIs with HTML, CSS (Flexbox, CSS Grid), React, Material UI, and Styled Components.</p>
+                <p>Knowledgable in JavaScript and concepts such as Object Oriented Programming (Encapsulation, Inheritance and Polymorphism.) </p>
+                <p>Experienced in crafting responsive UI with HTML, CSS (Flexbox, CSS Grid), React and Material UI.</p>
         </div>
 
         <div>
@@ -40,9 +40,13 @@ const Experience = () => {
         </div>
 
         <div>
-                <p>Demonstrated apppcation of CRUD operations in the Books Directory Console App and then built upon these with the  To Do App where we incorporated DOM and Object Orientated Programming and then incporated React SPA and API data to make the Cars Apppcation.</p>
-                <p>When I finished the Introduction to Web Development course with Code First Girls, I built the first iteration of The pttle pbrary to exhibit the skills I learnt and to build on them. The foundation of the site was constructed using HTML and CSS with Bootstrap elements to elevate the UI. Since finishing The Jump Bootcamp, I developed the second iteration of The pttle pbrary. This time I used React and Vite as the project framework and built upon this using MUI pbrary for the UI elements.</p>
-                <p>I’ve enjoyed the project, redesigning the site and working to produce the same views with more efficient code. Although I’m still working on finishing the second iteration, already I’ve experienced the tangible benefit of a Single Page Apppcation and developing re-useable code.</p>
+                <p>I have demonstrated application of CRUD operations in the Books Directory Console App and then built upon these with the To Do App DOM and Object Oriented Programming elements have been
+                incorporated and then built upon these again in the Car’s Application using React’s Single Page Application and API data.</p>
+                <p>When I finished the Introduction to Web Development course with Code First Girls, I built the first iteration of The Little Library to exhibit the skills I’d learnt and to build on them.
+                The foundation of the site was constructed using HTML and CSS with Bootstrap elements to elevate the UI. Since finishing The Jump Bootcamp, I developed the second iteration of The Little
+                Library. This time I used React and Vite as the project framework and built upon this using MUI
+                library for the UI elements. I’ve enjoyed the project, redesigning the site and working to produce the same views with more efficient code. Although I’m still working on finishing the second iteration, already
+                I’ve experienced the tangible benefit of a Single Page Application and developing re-useable code.</p>
         </div>
 </div>
 
@@ -50,14 +54,18 @@ const Experience = () => {
             <div>
                 <h3><em>Business Analyst</em></h3>
                 <h4>January 2023 - Present</h4>
-                <h5>Jet2.com & Jet2Hopdays</h5>
+                <h5>Jet2.com & Jet2Holidays</h5>
             </div>
             <div>
-                <p>Worked on large and complex change initiatives through the full Software Development pfecycle, leading on the analysis stage, with the aim of revolutionising the On Hopday experience for customers and overseas colleagues. </p>
-                <p> Collaborate with Developer and Test Team members, Solutions and Data Architects, User Experience and Product Owner when leading Agile Ceremonies, flexing communication style to ensure clarity of requirements is determined. Work to ensure positive outcomes from each session by bringing all views into the discussion while keeping the conversation on topic with the ultimate goal of ensuring functionapty is fit for purpose. </p>
-                <p> Process mapping of ‘as is’ and ‘to be’ processes considering the wider business and industry context as well as any gaps or pain points identified. Experience of working with Azure Dev Ops and Confluence, Visio and Miro to document these requirements and risks. </p>
-                <p>Extensive experience of working in Agile methodology and enjoys the fast paced nature of depvering iteratively and ‘faipng fast’</p>
-                <p> BCS Certificate in Requirements Engineering & BCS Foundation in Business Analysis </p>
+                <p>Worked on large and complex change initiatives through the full Software Development lifecycle, leading on the analysis stage, with the aim of revolutionising the
+                On Holiday experience for customers and overseas colleagues. </p>
+                <p> Collaborate with Developer and Test Team members, Solutions and Data Architects, User Experience and Product Owner when leading Agile Ceremonies, flexing communication style to
+                ensure clarity of requirements is determined. Work to ensure positive outcomes from each session by bringing all views into the discussion while keeping the conversation on topic with the
+                ultimate goal of ensuring functionality is fit for purpose. </p>
+                <p> Process mapping of ‘as is’ and ‘to be’ processes considering the wider business and industry context as well as any gaps or pain points identified. Experience of working with
+                Azure Dev Ops and Confluence, Visio and Miro to document these requirements and risks. </p>
+                <p>Extensive experience of working in Agile methodology and enjoys the fast paced nature of delivering iteratively and ‘failing fast’</p>
+                <p> BCS Certificates in Requirements Engineering & BCS Foundation in Business Analysis </p>
             </div>
         </div>
 
@@ -70,7 +78,7 @@ const Experience = () => {
             </div>
             <div>
                 <p>Completed an 8 week course in Web Development, where I learnt the foundations of HTML, CSS & JavaScript</p>
-                <p>Created The pttle pbrary Website using skills I learnt and presented it back to the group. </p>
+                <p>Created The Little Library Website using skills I learnt and presented it back to the group. </p>
             </div>
         </div>
 
@@ -82,25 +90,28 @@ const Experience = () => {
                 <h5>Wm Morrisons Supermarkets</h5>
             </div>
             <div>
-                <p>Business Analyst apgned to an agile Product Manager, Solutions Architect, the wider development team and testers gathering requirements for roadmap features, ensuring they meet the strategic business objectives and keep customer experience at the core of the solution.</p>
-                <p>Also worked within the waterfall framework on a large scale programme of change to the Onpne Groceries website and apppcations.</p>
-                <p>Managed confpcting requirements by encouraging compromise and influencing where necessary.</p>
-                <p>Utipsed user story mapping to analyse processes, functional and non-functional requirements and to ensure accurate understanding of proposed business changes, which were fed into the Acceptance Criteria.</p>
-                <p>Communicated requirements back to technical teams to support testers in documenting test scripts, ensuring test cases covered all requirements accurately. Worked with developers on the implementation making sure the end result was driven by the desire to depver a quapty and impactful end solution.</p>
+                <p>Business Analyst aligned to an agile Product Manager, Solutions Architect, the wider development team and testers gathering requirements for roadmap features, ensuring they meet the
+                strategic business objectives and keep customer experience at the core of the solution.</p>
+                <p>Also worked within the waterfall framework on a large scale programme of change to the Online Groceries website and applications.</p>
+                <p>Managed conflicting requirements by encouraging compromise and influencing where necessary.</p>
+                <p>Utilised user story mapping to analyse processes, functional and non-functional requirements and to ensure accurate understanding of proposed business changes, which were fed into
+                the Acceptance Criteria.</p>
+                <p>Communicated requirements back to technical teams to support testers in documenting test scripts, ensuring test cases covered all requirements accurately.
+                Worked with developers on the implementation making sure the end result was driven by the desire to deliver a quality and impactful end solutions.</p>
             </div>
         </div>
 
 
         <div className="experience-entry">
             <div>
-                <h3><em>Technology Speciapst - Retail Service Delivery</em></h3>
+                <h3><em>Technology Specialist - Retail Service Delivery</em></h3>
                 <h4>Sept 2021 - June 2022</h4>
                 <h5>Wm Morrisons Supermarkets</h5>
             </div>
             <div>
                 <p>Owned the maintenance of the systems which support all in-store checkouts and their associated technologies. </p>
                 <p> First point of contact to a complex network of business and technology stakeholders for non-routine queries and technology incidents.</p>
-                <p>Analysed data as well as customer and stakeholder feedback to innovate and simppfy the service design and to improve the customer experience.</p>
+                <p>Analysed data as well as customer and stakeholder feedback to innovate and simplify the service design and to improve the customer experience.</p>
             </div>
         </div>
 
@@ -112,7 +123,7 @@ const Experience = () => {
                 <h5>Wm Morrisons Supermarkets</h5>
             </div>
             <div>
-                <p>Completed placements working as a Scrum Master and Project Manager with the overall scheme outcomes of experience and visibipty of project lifecycle and project management frameworks.</p>
+                <p>Completed placements working as a Scrum Master and Project Manager with the overall scheme outcomes of experience and visibility of project lifecycle and project management frameworks.</p>
             </div>
         </div>
 
@@ -135,7 +146,7 @@ const Experience = () => {
 
         <div className="experience-entry">
             <div>
-                <h4><em>University of Leeds</em> - BA Geogrpahy</h4>
+                <h4><em>University of Leeds</em> - BA Geography</h4>
                 <h5>Sept 2014 - August 2017</h5>
                 <h6>Achieved 2:1</h6>
             </div>
